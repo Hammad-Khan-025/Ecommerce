@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    background-color: rgb(60, 0, 116);
+    color: white;
+}
+.top-navbar{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    color: rgb(60, 0, 116);
+    padding: 0.7vw 3vw;
+}
+.top-button{
+    border: 2px solid rgb(60, 0, 116);
+    border-radius: 3px;
+    color: rgb(60, 0, 116);
+    background-color: rgb(238, 238, 238);
+    padding: 0.3vw 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.top-button:hover, .top-button1:hover, .top-button2:hover{
+    background-color: rgb(60, 0, 116);
+    color: white;
+}
+.top-icons a, .top-icons a:hover{
+    color: inherit;
+}
+i{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.navbar-brand{
+    font-size: 2vw !important;
+}
+.nav-link, .navbar-brand{
+    color: white;
+}
+.nav-link{
+    transition: 0.5s ease;
+}
+.nav-link:hover{
+    background-color: rgba(128, 128, 128, 0.555);
+    transition: 0.5s ease;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(60, 0, 116);
+    margin: -4vw 5vw;
+    min-height: 100vh;
+}
+.top-button1{
+    border: 2px solid rgb(60, 0, 116);
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(60, 0, 116);
+    padding: 0.3vw 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease;
+    width: 15vw;
+    height: auto;
+}
+.top-button2{
+    border: 2px solid rgb(60, 0, 116);
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(60, 0, 116);
+    padding: 0.3vw 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease;
+    width: 9vw;
+    height: auto;
+}

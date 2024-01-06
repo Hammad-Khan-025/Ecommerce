@@ -1,0 +1,27 @@
+@media only screen and (min-width: 0px) and  (max-width: 575px) {
+    i{
+        font-size: 3.5vw;
+    }
+    .navbar-brand{
+        font-size: 4vw !important;
+    }
+    .top-button{
+        font-size: 3vw;
+    }
+    .menus{
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-link:hover{
+        background-color: rgb(60, 0, 116);
+    }
+    .home{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    .top-button1{
+        width: 30vw;
+        font-size: 3vw;
+    }
+}
